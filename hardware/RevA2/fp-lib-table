@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "VeraLink_Footprints") (type "KiCad") (uri "${KIPRJMOD}/VeraLink_Footprints.pretty") (options "") (descr ""))
+)
