@@ -11414,38 +11414,6 @@
 		(uuid "f151cd0d-c895-4eca-afde-61a63deac85f")
 	)
 	(segment
-		(start 130.5 109.898959)
-		(end 130.5 109.75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U3-XL2{slash}P0.01)")
-		(uuid "3bbd4023-1562-43f2-9851-6ced36deabcc")
-	)
-	(segment
-		(start 131.4 112.8)
-		(end 130.325 111.725)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U3-XL2{slash}P0.01)")
-		(uuid "409dcb23-b87f-4106-9343-d221585d1c19")
-	)
-	(segment
-		(start 130.325 111.725)
-		(end 130.325 110.073959)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U3-XL2{slash}P0.01)")
-		(uuid "5fffe1f0-e7bc-4421-830f-293491f45444")
-	)
-	(segment
-		(start 130.325 110.073959)
-		(end 130.5 109.898959)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U3-XL2{slash}P0.01)")
-		(uuid "d0e82977-e788-4f3c-b868-c4ec199f19e7")
-	)
-	(segment
 		(start 126.75 104.25)
 		(end 126.6 104.4)
 		(width 0.2)
@@ -11484,14 +11452,6 @@
 		(layer "F.Cu")
 		(net "Net-(U3-XC2)")
 		(uuid "d25f4b04-083f-41f2-a146-8d1e8a9590cb")
-	)
-	(segment
-		(start 130 109.75)
-		(end 129.601041 109.75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U3-XL1{slash}P0.00)")
-		(uuid "717147c8-a35d-48af-897b-facea79c417f")
 	)
 	(segment
 		(start 146 100)
@@ -11533,5 +11493,15 @@
 		(net "/LORA_RF")
 		(uuid "d3aba9af-b1ee-4503-ab6b-9f6c329488aa")
 	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 	(embedded_fonts no)
 )
