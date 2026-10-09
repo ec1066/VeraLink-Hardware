@@ -196,3 +196,63 @@ NINA-B306 appears feasible for VeraLink Rev A2.1 because it provides:
 
 Preliminary feasible. Exact pin assignment required before schematic redesign.
 
+
+
+
+
+\## Proposed Pin Assignment Draft 0.1
+
+
+
+| VeraLink Signal | Proposed NINA-B306 Signal | Function Type | Routing Group | Status |
+
+|---|---|---|---|---|
+
+| LORA\_NSS | GPIO\_16 | Digital output | LoRa/right side | Proposed |
+
+| LORA\_SCK | GPIO\_17 | SPI clock | LoRa/right side | Proposed |
+
+| LORA\_MOSI | GPIO\_18 | SPI MOSI | LoRa/right side | Proposed |
+
+| LORA\_MISO | GPIO\_20 | SPI MISO | LoRa/right side | Proposed |
+
+| LORA\_RESET\_N | GPIO\_21 | Digital output | LoRa/right side | Proposed |
+
+| LORA\_BUSY | GPIO\_22 | Digital input | LoRa/right side | Proposed |
+
+| LORA\_DIO1 | GPIO\_23 | Interrupt input | LoRa/right side | Proposed |
+
+| LORA\_DIO2 | GPIO\_24 | Interrupt/control | LoRa/right side | Proposed |
+
+| LORA\_TXEN | GPIO\_25 | Digital output | LoRa/right side | Proposed |
+
+| LORA\_RXEN | GPIO\_47 | Digital output | LoRa/top side | Proposed |
+
+| I2C\_SCL | GPIO\_4 | I2C clock | Haptic/UI side | Proposed |
+
+| I2C\_SDA | GPIO\_5 | I2C data | Haptic/UI side | Proposed |
+
+| HAPTIC\_TRIG | GPIO\_7 | Digital output | Haptic/UI side | Proposed |
+
+| BUTTON\_N | GPIO\_8 | Digital input | UI side | Proposed |
+
+| LED\_R\_N | GPIO\_1 | PWM/GPIO output | UI side | Proposed |
+
+| LED\_G\_N | GPIO\_2 | PWM/GPIO output | UI side | Proposed |
+
+| LED\_B\_N | GPIO\_3 | PWM/GPIO output | UI side | Proposed |
+
+| PIEZO\_PWM | GPIO\_48 | PWM/GPIO output | UI/audio side | Proposed |
+
+| CHG\_STAT | GPIO\_49 | Digital input | Charger/sense | Proposed |
+
+| CHG\_DETECT | GPIO\_50 | Digital input | Charger/sense | Proposed |
+
+| VBAT\_SENSE | GPIO\_27 or verified ADC-capable GPIO | ADC input | Battery sense | Requires verification |
+
+| SWDIO | SWDIO | Debug/programming | Factory pads | Fixed |
+
+| SWDCLK | SWDCLK | Debug/programming | Factory pads | Fixed |
+
+| RESET\_N | RESET\_N | Hardware reset | Test/reset | Optional |
+
