@@ -8447,11 +8447,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ad733cdd-6d6c-4db1-8f64-7a5be93e6bef")
-		(at 136.96 89.5 -90)
+		(at 137.22 89.1 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.16 270)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(uuid "628124ad-3c0b-441e-b972-ab83d0f0e25f")
 			(effects
@@ -8462,7 +8462,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.16 270)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "b0e7c857-09eb-4799-afc5-7b7ea3c07837")
 			(effects
@@ -8473,7 +8473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "12fb397b-27df-4d53-9978-7206e85a3076")
@@ -8484,7 +8484,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a618eb5-045a-4bb7-bfe5-80db97f3648c")
@@ -8495,7 +8495,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1240ef90-0f0a-4a84-8d2f-f5ec6328a439")
@@ -8561,7 +8561,7 @@
 			(uuid "b414449d-1c36-4b8d-bf53-f57cb654a948")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f2ea0dfb-0c47-40aa-bac6-1f4a76f4c548")
 			(effects
@@ -8572,7 +8572,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 270)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8581,7 +8581,7 @@
 			(uuid "f014bd7c-c136-4e0e-8700-79a64fca6908")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 270)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12403,6 +12403,30 @@
 		(layer "F.Cu")
 		(net "/LORA_RF")
 		(uuid "d3aba9af-b1ee-4503-ab6b-9f6c329488aa")
+	)
+	(segment
+		(start 139.86 89.1)
+		(end 139.96 89)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/CHG_IN")
+		(uuid "4fca8697-389e-445d-ad26-fb5074c14df9")
+	)
+	(segment
+		(start 137.7 89.1)
+		(end 139.86 89.1)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "/CHG_IN")
+		(uuid "ae5d315a-7949-4acb-8708-a2e7af477958")
+	)
+	(segment
+		(start 139.96 89)
+		(end 139.96 92)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "/CHG_IN")
+		(uuid "d6edfece-3907-4620-8d90-edde3dcbacda")
 	)
 	(zone
 		(layer "In1.Cu")
